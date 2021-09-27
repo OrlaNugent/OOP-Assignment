@@ -1,22 +1,23 @@
 class Forum {
-    constructor (, ){
-    this.speed = ;
-    this.hooves = hooves;
-    this.mane = mane; 
-}
+    constructor (title, ){
+    this.title = title;
+    }
 }
 
-/// Gardening 
+console.log(Forum)
 
 class Gardening extends Forum {
     constructor (plantType){
         this.plantType = plantType;
     }
 }
-/// Macrame 
+
+console.log(Gardening)
 class Macrame extends Forum {
     constructor (cord, knots){
         this.cord = cord;
         this.knots = knots; 
     }
 }
+
+console.log(Gardening)
