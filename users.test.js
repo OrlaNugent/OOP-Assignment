@@ -1,6 +1,10 @@
-const Users = require("./users"); 
+/// const Users = require("./users"); 
 
-test ("User name is correct", () => {
-    const user1 = new Users("Claire");
-   expect (user1.username).toBe ("Claire"); 
+///test ("Post is created by user", () => {
+  /// expect (Users).toMatch("Claire"); 
+///}); 
+
+
+test ('Use should be Claire post should be I love plants', () => {
+    expect(functions.createsPost()).toBe({ username:'Claire', writesPost:'I love plants'});
 });
